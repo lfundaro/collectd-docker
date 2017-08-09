@@ -1,5 +1,5 @@
-IMAGE=lfundaro/collectd-minimal
-VERSION=1.0.0
+IMAGE=lfundaro/collectd-docker
+VERSION=1.0
 
 build:
 	docker build -t ${IMAGE}:latest -f Dockerfile .
